@@ -1,0 +1,44 @@
+/*
+Theme Name: grindstone
+Description: Oshin Child Theme for Grindstone Financial
+Author: Reach Maine
+Template: oshin
+Version: 1.2
+*/
+
+@import url("../oshin/style.css");
+@import "partials/colors";
+@import "partials/typography";
+@import "partials/oshine";
+// @import "partials/cf7";
+// media styling imported at end of this file
+
+/*** slidebar in oshine slidebar is above main content *** */
+.sb-slidebar { // the sidebar sliding bar for mobil menu
+
+}
+/*  header stuff - here */
+
+/*** styling of content */
+
+/** sidebar
+
+/** footer **/
+
+// reach-bottom-cta
+#reach-bottom-cta{
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+// footer
+#footer {
+    a.reach-logo {
+    	color: white;
+    }
+    .reach-logo:before {
+    	content: url('images/reach-favicon.png');
+    	padding-right: 4px;
+    }
+}
+/* *** keep this at the end *** */
+@import "partials/media";
