@@ -18,7 +18,26 @@ Version: 1.2
 
 }
 /*  header stuff - here */
-
+#header-top-bar {
+	#header-top-bar-left {
+		a {
+			color: #fff;
+		}
+		a:hover {
+			color: $light-orange;
+		}
+	}
+	#header-top-bar-right {
+		#topbar-menu {
+			a:hover {
+				color: $light-orange;
+			}
+			.current-menu-item a {
+				color: $gsf-gold;
+			}
+		}
+	}
+}
 /*** styling of content */
 
 /** sidebar
@@ -29,6 +48,9 @@ Version: 1.2
 #reach-bottom-cta{
 	margin-top: 40px;
 	margin-bottom: 40px;
+	.widget {
+		margin-bottom: 0px;
+	}
 }
 // footer
 #footer {

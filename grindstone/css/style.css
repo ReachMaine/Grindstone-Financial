@@ -59,6 +59,15 @@ input[type="submit"] {
 
 /*** slidebar in oshine slidebar is above main content *** */
 /*  header stuff - here */
+#header-top-bar #header-top-bar-left a {
+  color: #fff; }
+#header-top-bar #header-top-bar-left a:hover {
+  color: #fef3c5; }
+#header-top-bar #header-top-bar-right #topbar-menu a:hover {
+  color: #fef3c5; }
+#header-top-bar #header-top-bar-right #topbar-menu .current-menu-item a {
+  color: #fcd454; }
+
 /*** styling of content */
 /** sidebar
 
@@ -66,6 +75,8 @@ input[type="submit"] {
 #reach-bottom-cta {
   margin-top: 40px;
   margin-bottom: 40px; }
+  #reach-bottom-cta .widget {
+    margin-bottom: 0px; }
 
 #footer a.reach-logo {
   color: white; }
